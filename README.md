@@ -6,14 +6,17 @@ Using Activity Recognition System based on Multisensor Dataset
 - Estimated SD using Python's bootstrapped to build a 90% CI for the SD of each feature
 
 - Binary Logistic Regression on a subset (3) of features
-  --> Calculated p-values for features, and implemented backward selection/Recursive feature elimination
-  --> Implemented 5-fold CV (using stratified CV when necessary)
-  --> Generated ROC Curves for classification results
+
+  -- Calculated p-values for features, and implemented backward selection/Recursive feature elimination
+  
+  -- Implemented 5-fold CV (using stratified CV when necessary)
+  
+  -- Generated ROC Curves for classification results
   
 - Binary Logistic Regression using L1 Regularization
-  --> Performed CV to determine optimal weight for L1 penalty in model
+  -- Performed CV to determine optimal weight for L1 penalty in model
   
 - Multi-Class Logistic Regression using L1 Regularization
-  --> Generated confusion matrices
+  -- Generated confusion matrices
   
 - Naive Bayes using L1 Regularization
